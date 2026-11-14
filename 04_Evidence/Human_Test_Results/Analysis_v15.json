@@ -1,0 +1,665 @@
+{
+  "analysis_date": "2026-11-14",
+  "participants_reported_by_team": 5,
+  "unique_complete_exports": 5,
+  "all_summaries_recomputed": true,
+  "source_build": "CQ2 schema; exact participant build not recorded",
+  "scoring_key": "01_Product/CyberLearn.html build 2.1.1",
+  "team_confirmation": "User confirmed on 14 November 2026 that participants completed the sessions. This does not establish language, assistance, consent or rating reconciliation.",
+  "totals": {
+    "pre": {
+      "total": 20,
+      "actions": 9,
+      "ok": 15,
+      "risk": 10,
+      "safe": 10,
+      "tp": 6,
+      "fp": 1
+    },
+    "prac": {
+      "total": 20,
+      "actions": 12,
+      "ok": 11,
+      "risk": 10,
+      "safe": 10,
+      "tp": 3,
+      "fp": 2
+    },
+    "post": {
+      "total": 20,
+      "actions": 6,
+      "ok": 13,
+      "risk": 10,
+      "safe": 10,
+      "tp": 5,
+      "fp": 2
+    }
+  },
+  "sessions": [
+    {
+      "schema": "CQ2",
+      "id": "8831932be9c724d588b0cb2b",
+      "parent": null,
+      "code": "CL-0A348",
+      "role": "teaching",
+      "lang": "ru",
+      "start": 1794553245864,
+      "end": 1794553975628,
+      "answers": [
+        {
+          "id": "z3",
+          "stage": "pre",
+          "a": 0,
+          "f": false
+        },
+        {
+          "id": "n08",
+          "stage": "pre",
+          "a": 2,
+          "f": false
+        },
+        {
+          "id": "z2",
+          "stage": "pre",
+          "a": 0,
+          "f": false
+        },
+        {
+          "id": "n09",
+          "stage": "pre",
+          "a": 0,
+          "f": false
+        },
+        {
+          "id": "n16",
+          "stage": "prac",
+          "a": 1,
+          "f": true
+        },
+        {
+          "id": "t2",
+          "stage": "prac",
+          "a": 2,
+          "f": false
+        },
+        {
+          "id": "n17",
+          "stage": "prac",
+          "a": 2,
+          "f": false
+        },
+        {
+          "id": "t1",
+          "stage": "prac",
+          "a": 1,
+          "f": false
+        },
+        {
+          "id": "n01",
+          "stage": "post",
+          "a": 1,
+          "f": false
+        },
+        {
+          "id": "n10",
+          "stage": "post",
+          "a": 1,
+          "f": true
+        },
+        {
+          "id": "b1",
+          "stage": "post",
+          "a": 1,
+          "f": true
+        },
+        {
+          "id": "n03",
+          "stage": "post",
+          "a": 0,
+          "f": false
+        }
+      ],
+      "fb": {
+        "use": 3,
+        "rate": 4,
+        "confidence": 2,
+        "frequency": "twice",
+        "comment": ""
+      },
+      "summary": {
+        "pre": {
+          "total": 4,
+          "actions": 3,
+          "ok": 2,
+          "risk": 2,
+          "safe": 2,
+          "tp": 0,
+          "fp": 0
+        },
+        "prac": {
+          "total": 4,
+          "actions": 4,
+          "ok": 3,
+          "risk": 2,
+          "safe": 2,
+          "tp": 1,
+          "fp": 0
+        },
+        "post": {
+          "total": 4,
+          "actions": 4,
+          "ok": 4,
+          "risk": 2,
+          "safe": 2,
+          "tp": 2,
+          "fp": 0
+        }
+      },
+      "source_file": "CyberLearn_CL-0A348_b0cb2b (1).json",
+      "source_sha256": "4219fcabb3f68c8b6613b409b3b0487066e638e1a087f8961479136aa1d6095b",
+      "elapsed_seconds": 729.764,
+      "date_local": "2026-11-13T12:00:45.864000+05:00",
+      "followup_available_local": "2026-11-20T12:12:55.628000+05:00"
+    },
+    {
+      "schema": "CQ2",
+      "id": "761639e45e1c5af0464c9a40",
+      "parent": null,
+      "code": "CL-D9118",
+      "role": "teaching",
+      "lang": "ru",
+      "start": 1794553878500,
+      "end": 1794554136128,
+      "answers": [
+        {
+          "id": "n04",
+          "stage": "pre",
+          "a": 0,
+          "f": false
+        },
+        {
+          "id": "b2",
+          "stage": "pre",
+          "a": 1,
+          "f": false
+        },
+        {
+          "id": "n13",
+          "stage": "pre",
+          "a": 1,
+          "f": false
+        },
+        {
+          "id": "n00",
+          "stage": "pre",
+          "a": 2,
+          "f": false
+        },
+        {
+          "id": "n19",
+          "stage": "prac",
+          "a": 0,
+          "f": false
+        },
+        {
+          "id": "n16",
+          "stage": "prac",
+          "a": 1,
+          "f": false
+        },
+        {
+          "id": "t2",
+          "stage": "prac",
+          "a": 2,
+          "f": false
+        },
+        {
+          "id": "n18",
+          "stage": "prac",
+          "a": 0,
+          "f": false
+        },
+        {
+          "id": "z1",
+          "stage": "post",
+          "a": 1,
+          "f": false
+        },
+        {
+          "id": "n15",
+          "stage": "post",
+          "a": 2,
+          "f": false
+        },
+        {
+          "id": "n03",
+          "stage": "post",
+          "a": 2,
+          "f": false
+        },
+        {
+          "id": "n10",
+          "stage": "post",
+          "a": 1,
+          "f": false
+        }
+      ],
+      "fb": {
+        "use": 5,
+        "rate": 4,
+        "confidence": 4,
+        "frequency": "weekly",
+        "comment": ""
+      },
+      "summary": {
+        "pre": {
+          "total": 4,
+          "actions": 1,
+          "ok": 2,
+          "risk": 2,
+          "safe": 2,
+          "tp": 0,
+          "fp": 0
+        },
+        "prac": {
+          "total": 4,
+          "actions": 3,
+          "ok": 2,
+          "risk": 2,
+          "safe": 2,
+          "tp": 0,
+          "fp": 0
+        },
+        "post": {
+          "total": 4,
+          "actions": 2,
+          "ok": 2,
+          "risk": 2,
+          "safe": 2,
+          "tp": 0,
+          "fp": 0
+        }
+      },
+      "source_file": "CyberLearn_CL-D9118_4c9a40 (1).json",
+      "source_sha256": "f2ccd303bc1515279209096a85416fb78f237cc792f915233d4877e8b59c90ec",
+      "elapsed_seconds": 257.628,
+      "date_local": "2026-11-13T12:11:18.500000+05:00",
+      "followup_available_local": "2026-11-20T12:15:36.128000+05:00"
+    },
+    {
+      "schema": "CQ2",
+      "id": "7bf5f826c6f5ea08ebbe7764",
+      "parent": null,
+      "code": "CL-81DF3",
+      "role": "finance",
+      "lang": "ru",
+      "start": 1794556854201,
+      "end": 1794557435001,
+      "answers": [
+        {
+          "id": "n05",
+          "stage": "pre",
+          "a": 2,
+          "f": false
+        },
+        {
+          "id": "n11",
+          "stage": "pre",
+          "a": 2,
+          "f": false
+        },
+        {
+          "id": "n14",
+          "stage": "pre",
+          "a": 2,
+          "f": true
+        },
+        {
+          "id": "n08",
+          "stage": "pre",
+          "a": 2,
+          "f": true
+        },
+        {
+          "id": "n27",
+          "stage": "prac",
+          "a": 0,
+          "f": false
+        },
+        {
+          "id": "n26",
+          "stage": "prac",
+          "a": 2,
+          "f": true
+        },
+        {
+          "id": "f2p",
+          "stage": "prac",
+          "a": 0,
+          "f": false
+        },
+        {
+          "id": "f3p",
+          "stage": "prac",
+          "a": 2,
+          "f": true
+        },
+        {
+          "id": "z2",
+          "stage": "post",
+          "a": 2,
+          "f": false
+        },
+        {
+          "id": "n06",
+          "stage": "post",
+          "a": 1,
+          "f": true
+        },
+        {
+          "id": "n01",
+          "stage": "post",
+          "a": 0,
+          "f": false
+        },
+        {
+          "id": "b3",
+          "stage": "post",
+          "a": 1,
+          "f": true
+        }
+      ],
+      "fb": {
+        "use": 4,
+        "rate": 5,
+        "confidence": 4,
+        "frequency": "twice",
+        "comment": ""
+      },
+      "summary": {
+        "pre": {
+          "total": 4,
+          "actions": 4,
+          "ok": 4,
+          "risk": 2,
+          "safe": 2,
+          "tp": 2,
+          "fp": 0
+        },
+        "prac": {
+          "total": 4,
+          "actions": 4,
+          "ok": 4,
+          "risk": 2,
+          "safe": 2,
+          "tp": 2,
+          "fp": 0
+        },
+        "post": {
+          "total": 4,
+          "actions": 0,
+          "ok": 4,
+          "risk": 2,
+          "safe": 2,
+          "tp": 2,
+          "fp": 0
+        }
+      },
+      "source_file": "CyberLearn_CL-81DF3_be7764.json",
+      "source_sha256": "d05333b77d1d546848f42979d526de05444f456f121cc57d6c5143b49cd2ffb9",
+      "elapsed_seconds": 580.8,
+      "date_local": "2026-11-13T13:00:54.201000+05:00",
+      "followup_available_local": "2026-11-20T13:10:35.001000+05:00"
+    },
+    {
+      "schema": "CQ2",
+      "id": "e636a7a79338d1779eef296c",
+      "parent": null,
+      "code": "CL-2A9D1",
+      "role": "finance",
+      "lang": "en",
+      "start": 1794646121667,
+      "end": 1794646322750,
+      "answers": [
+        {
+          "id": "n15",
+          "stage": "pre",
+          "a": 1,
+          "f": true
+        },
+        {
+          "id": "n03",
+          "stage": "pre",
+          "a": 0,
+          "f": false
+        },
+        {
+          "id": "z1",
+          "stage": "pre",
+          "a": 2,
+          "f": true
+        },
+        {
+          "id": "n04",
+          "stage": "pre",
+          "a": 2,
+          "f": true
+        },
+        {
+          "id": "n30",
+          "stage": "prac",
+          "a": 1,
+          "f": false
+        },
+        {
+          "id": "n29",
+          "stage": "prac",
+          "a": 0,
+          "f": false
+        },
+        {
+          "id": "n27",
+          "stage": "prac",
+          "a": 2,
+          "f": true
+        },
+        {
+          "id": "f1p",
+          "stage": "prac",
+          "a": 2,
+          "f": false
+        },
+        {
+          "id": "n09",
+          "stage": "post",
+          "a": 1,
+          "f": false
+        },
+        {
+          "id": "n05",
+          "stage": "post",
+          "a": 1,
+          "f": true
+        },
+        {
+          "id": "n10",
+          "stage": "post",
+          "a": 2,
+          "f": false
+        },
+        {
+          "id": "n02",
+          "stage": "post",
+          "a": 0,
+          "f": true
+        }
+      ],
+      "fb": {
+        "use": 3,
+        "rate": 2,
+        "confidence": 3,
+        "frequency": "onboard",
+        "comment": ""
+      },
+      "summary": {
+        "pre": {
+          "total": 4,
+          "actions": 1,
+          "ok": 3,
+          "risk": 2,
+          "safe": 2,
+          "tp": 2,
+          "fp": 1
+        },
+        "prac": {
+          "total": 4,
+          "actions": 0,
+          "ok": 1,
+          "risk": 2,
+          "safe": 2,
+          "tp": 0,
+          "fp": 1
+        },
+        "post": {
+          "total": 4,
+          "actions": 0,
+          "ok": 2,
+          "risk": 2,
+          "safe": 2,
+          "tp": 1,
+          "fp": 1
+        }
+      },
+      "source_file": "CyberLearn_CL-2A9D1_ef296c.json",
+      "source_sha256": "7128f7175a226b26967f8ba140c989c9b2bc9e83984b3dc0f46cc963ed2d8826",
+      "elapsed_seconds": 201.083,
+      "date_local": "2026-11-14T13:48:41.667000+05:00",
+      "followup_available_local": "2026-11-21T13:52:02.750000+05:00"
+    },
+    {
+      "schema": "CQ2",
+      "id": "e9586f6ed91118e32b895f5b",
+      "parent": null,
+      "code": "CL-2B9D1",
+      "role": "admissions",
+      "lang": "en",
+      "start": 1794646554056,
+      "end": 1794646607936,
+      "answers": [
+        {
+          "id": "n04",
+          "stage": "pre",
+          "a": 2,
+          "f": true
+        },
+        {
+          "id": "n01",
+          "stage": "pre",
+          "a": 0,
+          "f": false
+        },
+        {
+          "id": "n08",
+          "stage": "pre",
+          "a": 1,
+          "f": true
+        },
+        {
+          "id": "n07",
+          "stage": "pre",
+          "a": 2,
+          "f": false
+        },
+        {
+          "id": "n22",
+          "stage": "prac",
+          "a": 1,
+          "f": true
+        },
+        {
+          "id": "a1",
+          "stage": "prac",
+          "a": 1,
+          "f": false
+        },
+        {
+          "id": "n24",
+          "stage": "prac",
+          "a": 1,
+          "f": false
+        },
+        {
+          "id": "n21",
+          "stage": "prac",
+          "a": 2,
+          "f": false
+        },
+        {
+          "id": "n00",
+          "stage": "post",
+          "a": 1,
+          "f": false
+        },
+        {
+          "id": "n15",
+          "stage": "post",
+          "a": 2,
+          "f": true
+        },
+        {
+          "id": "n14",
+          "stage": "post",
+          "a": 1,
+          "f": false
+        },
+        {
+          "id": "n05",
+          "stage": "post",
+          "a": 1,
+          "f": false
+        }
+      ],
+      "fb": {
+        "use": 3,
+        "rate": 2,
+        "confidence": 3,
+        "frequency": "monthly",
+        "comment": ""
+      },
+      "summary": {
+        "pre": {
+          "total": 4,
+          "actions": 0,
+          "ok": 4,
+          "risk": 2,
+          "safe": 2,
+          "tp": 2,
+          "fp": 0
+        },
+        "prac": {
+          "total": 4,
+          "actions": 1,
+          "ok": 1,
+          "risk": 2,
+          "safe": 2,
+          "tp": 0,
+          "fp": 1
+        },
+        "post": {
+          "total": 4,
+          "actions": 0,
+          "ok": 1,
+          "risk": 2,
+          "safe": 2,
+          "tp": 0,
+          "fp": 1
+        }
+      },
+      "source_file": "CyberLearn_CL-2B9D1_895f5b.json",
+      "source_sha256": "420ec4ef38691cd70fbe1b351bc4fedc5519d663b172f2e4b1129a9ee476be6e",
+      "elapsed_seconds": 53.88,
+      "date_local": "2026-11-14T13:55:54.056000+05:00",
+      "followup_available_local": "2026-11-21T13:56:47.936000+05:00"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "format": "CyberLearn.CampusQuest/2",
+  "records": [
+    {
+      "schema": "CQ2",
+      "id": "8831932be9c724d588b0cb2b",
+      "parent": null,
+      "code": "CL-0A348",
+      "role": "teaching",
+      "lang": "ru",
+      "start": 1794553245864,
+      "end": 1794553975628,
+      "answers": [
+        {
+          "id": "z3",
+          "stage": "pre",
+          "a": 0,
+          "f": false
+        },
+        {
+          "id": "n08",
+          "stage": "pre",
+          "a": 2,
+          "f": false
+        },
+        {
+          "id": "z2",
+          "stage": "pre",
+          "a": 0,
+          "f": false
+        },
+        {
+          "id": "n09",
+          "stage": "pre",
+          "a": 0,
+          "f": false
+        },
+        {
+          "id": "n16",
+          "stage": "prac",
+          "a": 1,
+          "f": true
+        },
+        {
+          "id": "t2",
+          "stage": "prac",
+          "a": 2,
+          "f": false
+        },
+        {
+          "id": "n17",
+          "stage": "prac",
+          "a": 2,
+          "f": false
+        },
+        {
+          "id": "t1",
+          "stage": "prac",
+          "a": 1,
+          "f": false
+        },
+        {
+          "id": "n01",
+          "stage": "post",
+          "a": 1,
+          "f": false
+        },
+        {
+          "id": "n10",
+          "stage": "post",
+          "a": 1,
+          "f": true
+        },
+        {
+          "id": "b1",
+          "stage": "post",
+          "a": 1,
+          "f": true
+        },
+        {
+          "id": "n03",
+          "stage": "post",
+          "a": 0,
+          "f": false
+        }
+      ],
+      "fb": {
+        "use": 3,
+        "rate": 4,
+        "confidence": 2,
+        "frequency": "twice",
+        "comment": ""
+      },
+      "summary": {
+        "pre": {
+          "total": 4,
+          "actions": 3,
+          "ok": 2,
+          "risk": 2,
+          "safe": 2,
+          "tp": 0,
+          "fp": 0
+        },
+        "prac": {
+          "total": 4,
+          "actions": 4,
+          "ok": 3,
+          "risk": 2,
+          "safe": 2,
+          "tp": 1,
+          "fp": 0
+        },
+        "post": {
+          "total": 4,
+          "actions": 4,
+          "ok": 4,
+          "risk": 2,
+          "safe": 2,
+          "tp": 2,
+          "fp": 0
+        }
+      }
+    }
+  ]
+}

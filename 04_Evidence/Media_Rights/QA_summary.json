@@ -1,0 +1,27 @@
+{
+  "duration": 46,
+  "frames": 1380,
+  "size": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "LUFS": -18.0,
+  "true_peak_dBTP": -4.8,
+  "LRA": 4.3,
+  "full_decode": "passed",
+  "primary_unfaded_until": 12,
+  "primary_fade": [
+    12,
+    14
+  ],
+  "suspense_unchanged_from_v11": true,
+  "suspense_start": 12,
+  "STOP_time": 16.766666666666666,
+  "all_UI_SFX_preserved": true,
+  "video_copied_without_reencoding": true,
+  "waveform_visually_reviewed": true,
+  "audio_auditioned": false,
+  "versions_1_to_11_unchanged": true,
+  "sha256": "4793f4251cb198ac11f0b55d5eed9869bd5d2973a7bc481dc796da3b31b7c4a3"
+}

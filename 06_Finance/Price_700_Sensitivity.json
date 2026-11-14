@@ -1,0 +1,8 @@
+{
+  "method": "Same supplied model, Inputs!B6 changed in memory only; all other assumptions unchanged; original workbook preserved",
+  "NPV_KZT": {
+    "600": 17351748.668079004,
+    "700": 35496656.07548642
+  },
+  "uplift_KZT": 18144907.407407418
+}

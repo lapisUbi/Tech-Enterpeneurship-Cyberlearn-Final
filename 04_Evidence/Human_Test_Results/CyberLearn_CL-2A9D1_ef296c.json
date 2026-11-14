@@ -1,0 +1,125 @@
+{
+  "format": "CyberLearn.CampusQuest/2",
+  "records": [
+    {
+      "schema": "CQ2",
+      "id": "e636a7a79338d1779eef296c",
+      "parent": null,
+      "code": "CL-2A9D1",
+      "role": "finance",
+      "lang": "en",
+      "start": 1794646121667,
+      "end": 1794646322750,
+      "answers": [
+        {
+          "id": "n15",
+          "stage": "pre",
+          "a": 1,
+          "f": true
+        },
+        {
+          "id": "n03",
+          "stage": "pre",
+          "a": 0,
+          "f": false
+        },
+        {
+          "id": "z1",
+          "stage": "pre",
+          "a": 2,
+          "f": true
+        },
+        {
+          "id": "n04",
+          "stage": "pre",
+          "a": 2,
+          "f": true
+        },
+        {
+          "id": "n30",
+          "stage": "prac",
+          "a": 1,
+          "f": false
+        },
+        {
+          "id": "n29",
+          "stage": "prac",
+          "a": 0,
+          "f": false
+        },
+        {
+          "id": "n27",
+          "stage": "prac",
+          "a": 2,
+          "f": true
+        },
+        {
+          "id": "f1p",
+          "stage": "prac",
+          "a": 2,
+          "f": false
+        },
+        {
+          "id": "n09",
+          "stage": "post",
+          "a": 1,
+          "f": false
+        },
+        {
+          "id": "n05",
+          "stage": "post",
+          "a": 1,
+          "f": true
+        },
+        {
+          "id": "n10",
+          "stage": "post",
+          "a": 2,
+          "f": false
+        },
+        {
+          "id": "n02",
+          "stage": "post",
+          "a": 0,
+          "f": true
+        }
+      ],
+      "fb": {
+        "use": 3,
+        "rate": 2,
+        "confidence": 3,
+        "frequency": "onboard",
+        "comment": ""
+      },
+      "summary": {
+        "pre": {
+          "total": 4,
+          "actions": 1,
+          "ok": 3,
+          "risk": 2,
+          "safe": 2,
+          "tp": 2,
+          "fp": 1
+        },
+        "prac": {
+          "total": 4,
+          "actions": 0,
+          "ok": 1,
+          "risk": 2,
+          "safe": 2,
+          "tp": 0,
+          "fp": 1
+        },
+        "post": {
+          "total": 4,
+          "actions": 0,
+          "ok": 2,
+          "risk": 2,
+          "safe": 2,
+          "tp": 1,
+          "fp": 1
+        }
+      }
+    }
+  ]
+}

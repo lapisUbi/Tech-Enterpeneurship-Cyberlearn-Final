@@ -1,0 +1,16 @@
+{
+  "primary_full_level_until": 12,
+  "primary_fade": [
+    12,
+    14
+  ],
+  "fade_curve": "cosine",
+  "primary_continuation": "same v6 oscillator instruments, C4 at 12s / D4 at 13s, no tempo stretch",
+  "suspense_stem_identical_to_v11": true,
+  "suspense_start": 12,
+  "suspense_STOP_frame": 503,
+  "suspense_STOP_time": 16.766666666666666,
+  "suspense_STOP_sample": 804800,
+  "all_other_source_audio_preserved": true,
+  "video_stream_copied_from": "v11"
+}

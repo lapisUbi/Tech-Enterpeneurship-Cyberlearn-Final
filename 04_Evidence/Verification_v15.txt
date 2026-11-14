@@ -1,0 +1,8 @@
+V15 verification, 14 November 2026
+
+Five unique completed exports: raw SHA-256 hashes match the supplied originals.
+All 15 stage summaries match the supplied MVP bank.
+PowerPoint: 14 slides; package, layout, chart/workbook and first-party import checks passed.
+New and edited slide layouts and updated PDF pages were visually reviewed.
+No new native PowerPoint, browser, Windows or LAN rehearsal is claimed.
+The product build and videos remain unchanged.

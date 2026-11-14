@@ -1,0 +1,20 @@
+{
+  "scope": "In-process request handlers, temporary storage; HTTP transport and browser NOT tested",
+  "checks": {
+    "unauthorised submit": "PASS",
+    "valid submission": "PASS",
+    "identical duplicate": "PASS",
+    "conflicting duplicate": "PASS",
+    "teacher inbox": "PASS",
+    "learner cannot read inbox": "PASS",
+    "nonloopback reviewer denied": "PASS",
+    "invalid code": "PASS",
+    "missing answer": "PASS",
+    "invalid role": "PASS",
+    "oversized comment": "PASS",
+    "early followup denied": "PASS",
+    "readable report produced": "PASS",
+    "selective delete": "PASS",
+    "json and html removed": "PASS"
+  }
+}

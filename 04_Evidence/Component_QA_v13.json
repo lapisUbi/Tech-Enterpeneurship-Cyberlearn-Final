@@ -1,0 +1,91 @@
+{
+  "bankEntries": 60,
+  "pools": {
+    "shared": 22,
+    "teaching": 8,
+    "admissions": 8,
+    "finance": 8,
+    "follow": 14
+  },
+  "uiKeys": 132,
+  "missingENKK": [],
+  "missingUI": [],
+  "flows": [
+    {
+      "lang": "en",
+      "role": "teaching",
+      "syntheticRecords": 1,
+      "answers": 12,
+      "jsonBytes": 2360,
+      "csvRows": 13
+    },
+    {
+      "lang": "en",
+      "role": "admissions",
+      "syntheticRecords": 1,
+      "answers": 12,
+      "jsonBytes": 2362,
+      "csvRows": 13
+    },
+    {
+      "lang": "en",
+      "role": "finance",
+      "syntheticRecords": 1,
+      "answers": 12,
+      "jsonBytes": 2362,
+      "csvRows": 13
+    },
+    {
+      "lang": "ru",
+      "role": "teaching",
+      "syntheticRecords": 1,
+      "answers": 12,
+      "jsonBytes": 2359,
+      "csvRows": 13
+    },
+    {
+      "lang": "ru",
+      "role": "admissions",
+      "syntheticRecords": 1,
+      "answers": 12,
+      "jsonBytes": 2361,
+      "csvRows": 13
+    },
+    {
+      "lang": "ru",
+      "role": "finance",
+      "syntheticRecords": 1,
+      "answers": 12,
+      "jsonBytes": 2359,
+      "csvRows": 13
+    },
+    {
+      "lang": "kk",
+      "role": "teaching",
+      "syntheticRecords": 1,
+      "answers": 12,
+      "jsonBytes": 2360,
+      "csvRows": 13
+    },
+    {
+      "lang": "kk",
+      "role": "admissions",
+      "syntheticRecords": 1,
+      "answers": 12,
+      "jsonBytes": 2361,
+      "csvRows": 13
+    },
+    {
+      "lang": "kk",
+      "role": "finance",
+      "syntheticRecords": 1,
+      "answers": 12,
+      "jsonBytes": 2360,
+      "csvRows": 13
+    }
+  ],
+  "parse": "PASS",
+  "persistence": "in-memory storage adapter only; actual browser storage not tested",
+  "download": "JSON/CSV payload generation only; actual browser download not tested",
+  "ui": "NOT RUN"
+}

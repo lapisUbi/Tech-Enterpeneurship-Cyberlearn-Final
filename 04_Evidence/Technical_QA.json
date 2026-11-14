@@ -1,0 +1,39 @@
+{
+  "scope": "Isolated JavaScript component tests and static package checks",
+  "checked_at_utc": "2026-11-10T22:54:00Z",
+  "source": "01_Product/CyberLearn.html",
+  "sha256": "571188146b25e466fc03c9b48f343d4183c551550c52dd3d878db8237a2be40f",
+  "result": "PASS within stated scope",
+  "checks": {
+    "javascript_parse": "PASS",
+    "question_bank_entries": 60,
+    "question_pools": {
+      "shared": 22,
+      "teaching": 8,
+      "admissions": 8,
+      "finance": 8,
+      "follow": 14
+    },
+    "localized_ui_keys": 132,
+    "en_kk_required_content": "All 60 entries contain subject, body, explanation and 3 answer options in English and Kazakh",
+    "core_flows": "EN and KK × Teaching, Admissions and Finance: 6 component routes passed",
+    "route_structure": "12 unique items; 4 opening, 4 role practice, 4 independent; 2 risky and 2 routine per stage",
+    "completion": "Lesson transition after 4 items, completion, record validation and scoring passed",
+    "serialization": "JSON CyberLearn.CampusQuest/2; CSV UTF-8 BOM, 1 header and 12 data rows",
+    "state": "Save/reload serialization with in-memory adapter passed",
+    "record_validation": "Invalid participant code and incomplete record rejected",
+    "import": "Valid record accepted; duplicate skipped; malformed format rejected",
+    "followup": "7-day lock, 4-item follow-up and duplicate prevention passed with controlled test time",
+    "csv_safety": "Formula-like feedback value receives escape prefix",
+    "package": "All 6 ZIP members identical to extracted files; bank_rules.json matches HTML bank",
+    "python": "classroom.py parses successfully"
+  },
+  "limits": [
+    "Browser UI walkthrough and screenshots not available: browser inventory empty; IAB returned Browser is not available.",
+    "Actual browser file-origin persistence, downloads and classroom receiver HTTP requests not run in this check.",
+    "Language content presence checked; linguistic quality and usability require separate review.",
+    "Technical checks do not measure learning outcomes or constitute participant evaluation."
+  ],
+  "reproduce": "node Technical_QA_component.cjs from a copy of the package on a machine with Node.js. Core test reads the sibling ../01_Product/CyberLearn.html; original fallback path is in the script.",
+  "no_source_changes": true
+}
