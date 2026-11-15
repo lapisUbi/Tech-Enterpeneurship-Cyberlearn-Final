@@ -1,0 +1,831 @@
+{
+  "version": "2.2.0",
+  "generated_utc": "2026-11-15T17:04:44.832Z",
+  "scope": "Complete distributed JavaScript executed with a minimal host DOM adapter; callbacks, state and generated markup checked. Not browser rendering, physical keyboard, OS download, or human usability testing.",
+  "html_sha256": "e0f0b284e659503cbe7612c070ae11eca377d66ed7a2c9789da28f9d672a5f28",
+  "checks": [
+    {
+      "name": "bank contains 60 complete trilingual items",
+      "result": "PASS"
+    },
+    {
+      "name": "all UI entries have three nonempty translations",
+      "result": "PASS"
+    },
+    {
+      "name": "en/teaching: invalid code rejected and focused",
+      "result": "PASS"
+    },
+    {
+      "name": "en/teaching: 12 unique balanced items",
+      "result": "PASS"
+    },
+    {
+      "name": "en/teaching: missing choices rejected",
+      "result": "PASS"
+    },
+    {
+      "name": "en/teaching: language switch preserves route",
+      "result": "PASS"
+    },
+    {
+      "name": "en/teaching: progress 1/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/teaching: progress 2/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/teaching: progress 3/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/teaching: progress 4/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/teaching: practice explanation rendered",
+      "result": "PASS"
+    },
+    {
+      "name": "en/teaching: progress 5/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/teaching: progress 6/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/teaching: progress 7/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/teaching: progress 8/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/teaching: progress 9/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/teaching: progress 10/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/teaching: progress 11/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/teaching: progress 12/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/teaching: finish guidance rendered",
+      "result": "PASS"
+    },
+    {
+      "name": "en/teaching: completion, separate scores and handoff rendered",
+      "result": "PASS"
+    },
+    {
+      "name": "en/teaching: correct scoring, 80 XP and build identifier",
+      "result": "PASS"
+    },
+    {
+      "name": "en/teaching: saved state and JSON export",
+      "result": "PASS"
+    },
+    {
+      "name": "en/admissions: invalid code rejected and focused",
+      "result": "PASS"
+    },
+    {
+      "name": "en/admissions: 12 unique balanced items",
+      "result": "PASS"
+    },
+    {
+      "name": "en/admissions: missing choices rejected",
+      "result": "PASS"
+    },
+    {
+      "name": "en/admissions: language switch preserves route",
+      "result": "PASS"
+    },
+    {
+      "name": "en/admissions: progress 1/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/admissions: progress 2/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/admissions: progress 3/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/admissions: progress 4/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/admissions: practice explanation rendered",
+      "result": "PASS"
+    },
+    {
+      "name": "en/admissions: progress 5/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/admissions: progress 6/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/admissions: progress 7/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/admissions: progress 8/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/admissions: progress 9/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/admissions: progress 10/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/admissions: progress 11/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/admissions: progress 12/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/admissions: finish guidance rendered",
+      "result": "PASS"
+    },
+    {
+      "name": "en/admissions: completion, separate scores and handoff rendered",
+      "result": "PASS"
+    },
+    {
+      "name": "en/admissions: correct scoring, 80 XP and build identifier",
+      "result": "PASS"
+    },
+    {
+      "name": "en/admissions: saved state and JSON export",
+      "result": "PASS"
+    },
+    {
+      "name": "en/finance: invalid code rejected and focused",
+      "result": "PASS"
+    },
+    {
+      "name": "en/finance: 12 unique balanced items",
+      "result": "PASS"
+    },
+    {
+      "name": "en/finance: missing choices rejected",
+      "result": "PASS"
+    },
+    {
+      "name": "en/finance: language switch preserves route",
+      "result": "PASS"
+    },
+    {
+      "name": "en/finance: progress 1/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/finance: progress 2/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/finance: progress 3/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/finance: progress 4/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/finance: practice explanation rendered",
+      "result": "PASS"
+    },
+    {
+      "name": "en/finance: progress 5/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/finance: progress 6/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/finance: progress 7/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/finance: progress 8/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/finance: progress 9/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/finance: progress 10/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/finance: progress 11/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/finance: progress 12/12",
+      "result": "PASS"
+    },
+    {
+      "name": "en/finance: finish guidance rendered",
+      "result": "PASS"
+    },
+    {
+      "name": "en/finance: completion, separate scores and handoff rendered",
+      "result": "PASS"
+    },
+    {
+      "name": "en/finance: correct scoring, 80 XP and build identifier",
+      "result": "PASS"
+    },
+    {
+      "name": "en/finance: saved state and JSON export",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/teaching: invalid code rejected and focused",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/teaching: 12 unique balanced items",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/teaching: missing choices rejected",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/teaching: language switch preserves route",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/teaching: progress 1/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/teaching: progress 2/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/teaching: progress 3/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/teaching: progress 4/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/teaching: practice explanation rendered",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/teaching: progress 5/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/teaching: progress 6/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/teaching: progress 7/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/teaching: progress 8/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/teaching: progress 9/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/teaching: progress 10/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/teaching: progress 11/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/teaching: progress 12/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/teaching: finish guidance rendered",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/teaching: completion, separate scores and handoff rendered",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/teaching: correct scoring, 80 XP and build identifier",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/teaching: saved state and JSON export",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/admissions: invalid code rejected and focused",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/admissions: 12 unique balanced items",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/admissions: missing choices rejected",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/admissions: language switch preserves route",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/admissions: progress 1/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/admissions: progress 2/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/admissions: progress 3/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/admissions: progress 4/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/admissions: practice explanation rendered",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/admissions: progress 5/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/admissions: progress 6/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/admissions: progress 7/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/admissions: progress 8/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/admissions: progress 9/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/admissions: progress 10/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/admissions: progress 11/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/admissions: progress 12/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/admissions: finish guidance rendered",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/admissions: completion, separate scores and handoff rendered",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/admissions: correct scoring, 80 XP and build identifier",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/admissions: saved state and JSON export",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/finance: invalid code rejected and focused",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/finance: 12 unique balanced items",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/finance: missing choices rejected",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/finance: language switch preserves route",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/finance: progress 1/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/finance: progress 2/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/finance: progress 3/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/finance: progress 4/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/finance: practice explanation rendered",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/finance: progress 5/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/finance: progress 6/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/finance: progress 7/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/finance: progress 8/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/finance: progress 9/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/finance: progress 10/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/finance: progress 11/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/finance: progress 12/12",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/finance: finish guidance rendered",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/finance: completion, separate scores and handoff rendered",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/finance: correct scoring, 80 XP and build identifier",
+      "result": "PASS"
+    },
+    {
+      "name": "kk/finance: saved state and JSON export",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/teaching: invalid code rejected and focused",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/teaching: 12 unique balanced items",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/teaching: missing choices rejected",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/teaching: language switch preserves route",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/teaching: progress 1/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/teaching: progress 2/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/teaching: progress 3/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/teaching: progress 4/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/teaching: practice explanation rendered",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/teaching: progress 5/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/teaching: progress 6/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/teaching: progress 7/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/teaching: progress 8/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/teaching: progress 9/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/teaching: progress 10/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/teaching: progress 11/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/teaching: progress 12/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/teaching: finish guidance rendered",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/teaching: completion, separate scores and handoff rendered",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/teaching: correct scoring, 80 XP and build identifier",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/teaching: saved state and JSON export",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/admissions: invalid code rejected and focused",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/admissions: 12 unique balanced items",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/admissions: missing choices rejected",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/admissions: language switch preserves route",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/admissions: progress 1/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/admissions: progress 2/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/admissions: progress 3/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/admissions: progress 4/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/admissions: practice explanation rendered",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/admissions: progress 5/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/admissions: progress 6/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/admissions: progress 7/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/admissions: progress 8/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/admissions: progress 9/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/admissions: progress 10/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/admissions: progress 11/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/admissions: progress 12/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/admissions: finish guidance rendered",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/admissions: completion, separate scores and handoff rendered",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/admissions: correct scoring, 80 XP and build identifier",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/admissions: saved state and JSON export",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/finance: invalid code rejected and focused",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/finance: 12 unique balanced items",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/finance: missing choices rejected",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/finance: language switch preserves route",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/finance: progress 1/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/finance: progress 2/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/finance: progress 3/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/finance: progress 4/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/finance: practice explanation rendered",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/finance: progress 5/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/finance: progress 6/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/finance: progress 7/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/finance: progress 8/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/finance: progress 9/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/finance: progress 10/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/finance: progress 11/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/finance: progress 12/12",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/finance: finish guidance rendered",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/finance: completion, separate scores and handoff rendered",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/finance: correct scoring, 80 XP and build identifier",
+      "result": "PASS"
+    },
+    {
+      "name": "ru/finance: saved state and JSON export",
+      "result": "PASS"
+    },
+    {
+      "name": "wrong-answer scoring remains zero",
+      "result": "PASS"
+    },
+    {
+      "name": "optional build validated; old records accepted",
+      "result": "PASS"
+    },
+    {
+      "name": "reviewer import",
+      "result": "PASS"
+    },
+    {
+      "name": "identical duplicate skipped",
+      "result": "PASS"
+    },
+    {
+      "name": "conflicting duplicate rejected",
+      "result": "PASS"
+    },
+    {
+      "name": "oversized import rejected",
+      "result": "PASS"
+    },
+    {
+      "name": "reviewer selected record deleted",
+      "result": "PASS"
+    },
+    {
+      "name": "day-seven early start denied",
+      "result": "PASS"
+    },
+    {
+      "name": "eligible followup uses four held-out items",
+      "result": "PASS"
+    },
+    {
+      "name": "reload restores in-progress followup",
+      "result": "PASS"
+    },
+    {
+      "name": "storage failure warning rendered",
+      "result": "PASS"
+    },
+    {
+      "name": "own selected record deleted",
+      "result": "PASS"
+    },
+    {
+      "name": "basic accessibility hooks in distributed HTML",
+      "result": "PASS"
+    }
+  ],
+  "passed": 204,
+  "limitations": [
+    "No browser engine or visual layout",
+    "No actual OS download or browser localStorage quota",
+    "Kazakh linguistic quality needs human review",
+    "No real users retested build 2.2.0"
+  ]
+}

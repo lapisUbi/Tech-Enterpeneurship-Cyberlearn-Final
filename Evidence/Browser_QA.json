@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-15",
+  "build": "2.2.0",
+  "scope": "In-app browser, localhost HTTP, Finance route, synthetic participant QA-AUDIT-ONLY. Not human research.",
+  "observed_pass": [
+    "Invalid participant code rejected",
+    "Missing answer rejected",
+    "EN/KK switch retained selected answer and progress",
+    "Kazakh question and controls rendered",
+    "Twelve decisions recorded through the final independent question",
+    "Resumed the twelve-answer session after reopening browser tab",
+    "Save results displayed session complete and saved in browser",
+    "Downloaded JSON through the browser download control",
+    "Reloaded page and found saved result in My results",
+    "Imported downloaded JSON into empty Reviewer inbox: Added 1, rejected 0",
+    "Imported identical file again: Added 0, Already present 1, rejected 0"
+  ],
+  "not_verified": [
+    "Actual assessment laptop, second browser/device, standalone file-origin behaviour, physical keyboard and screen reader",
+    "Other role journeys in a real browser; nine language/role routes covered by synthetic script tests"
+  ],
+  "screenshot": "MVP_Import_Verified.jpg",
+  "downloaded_record": "Synthetic_Browser_Result.json"
+}

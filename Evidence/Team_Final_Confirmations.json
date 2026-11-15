@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-15",
+  "source": "Explicit team representative statements in project chat; not independently observed or signed consent forms",
+  "confirmed": [
+    "All three members agree with contributions and reflections",
+    "Kazakh text reviewed and accepted by team",
+    "Participant permission for use of results confirmed by team",
+    "Permission for advertisement materials confirmed by team"
+  ],
+  "remaining": [
+    "Actual assessment-device rehearsal and playback",
+    "Timed group defence rehearsal",
+    "LMS deadline, upload rules and submission"
+  ],
+  "research_limitations_unchanged": [
+    "No observed unaided user retest of build 2.2.0",
+    "No Kazakh user testing",
+    "No independently verified employment roles or buyer interviews"
+  ]
+}

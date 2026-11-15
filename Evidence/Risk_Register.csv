@@ -1,0 +1,8 @@
+risk,category,likelihood_1_5,impact_1_5,priority,mitigation,proposed_owner,residual_risk
+R1 Learning transfer,Product,4,4,16,Observe reasoning; review item difficulty; pause expansion after repeated misunderstanding,Diana,Unknown effect in real work; small non-controlled test
+R2 Procurement,Commercial,4,4,16,Verify payer and dates; stage spending; reforecast slippage,Akhmedi,No completed buyer evidence
+R3 Cost and funding,Financial,4,5,20,Log delivery hours; review payroll; fund downside before commitments,Akhmedi,Assumed demand and employment arrangement
+R4 Result disclosure,Privacy,3,5,15,Confirm permission; limit copies/recipients; agree retention and deletion,Beknur,Codes may remain identifiable; exported copies persist
+R5 Language and access,Usability,3,4,12,Human EN/KK review; keyboard and second-device rehearsal,Diana,Meaning and assistive-technology behaviour unverified
+R6 Result integrity,Technical,3,4,12,Receipt checks; duplicate validation; backup and deletion rehearsal,Beknur,Local clocks/storage under user control; device behaviour unverified
+R7 Fatigue and non-return,Research,3,3,9,Measure fatigue; track eligible/returning counts; reduce burden,Diana,Returnees may differ from non-returners

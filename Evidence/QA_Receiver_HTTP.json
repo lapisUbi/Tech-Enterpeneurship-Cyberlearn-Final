@@ -1,0 +1,93 @@
+{
+  "version": "2.2.0",
+  "generated_utc": "2026-11-15T17:04:46Z",
+  "scope": "Actual loopback HTTP API with synthetic records and temporary storage. No browser, LAN device, Windows launcher or production hosting tested.",
+  "receiver_sha256": "03eff2d76d69fd7a58d9b1deccbdde825e8149bfb0cab15dd6b83ddf9010fbb0",
+  "passed": 21,
+  "checks": [
+    {
+      "name": "mode API",
+      "result": "PASS"
+    },
+    {
+      "name": "missing token denied",
+      "result": "PASS"
+    },
+    {
+      "name": "learner token cannot read reviewer inbox",
+      "result": "PASS"
+    },
+    {
+      "name": "submit yields matching receipt",
+      "result": "PASS"
+    },
+    {
+      "name": "identical duplicate is idempotent",
+      "result": "PASS"
+    },
+    {
+      "name": "conflicting duplicate rejected",
+      "result": "PASS"
+    },
+    {
+      "name": "reviewer sees saved optional build",
+      "result": "PASS"
+    },
+    {
+      "name": "report escapes user content and sets restrictive CSP",
+      "result": "PASS"
+    },
+    {
+      "name": "invalid code",
+      "result": "PASS"
+    },
+    {
+      "name": "invalid build",
+      "result": "PASS"
+    },
+    {
+      "name": "missing answer",
+      "result": "PASS"
+    },
+    {
+      "name": "invalid rating",
+      "result": "PASS"
+    },
+    {
+      "name": "oversized body rejected",
+      "result": "PASS"
+    },
+    {
+      "name": "malformed JSON rejected",
+      "result": "PASS"
+    },
+    {
+      "name": "learner token cannot import",
+      "result": "PASS"
+    },
+    {
+      "name": "early followup denied",
+      "result": "PASS"
+    },
+    {
+      "name": "eligible followup accepted",
+      "result": "PASS"
+    },
+    {
+      "name": "second followup denied",
+      "result": "PASS"
+    },
+    {
+      "name": "learner token cannot delete",
+      "result": "PASS"
+    },
+    {
+      "name": "reviewer deletion succeeds",
+      "result": "PASS"
+    },
+    {
+      "name": "all JSON and HTML copies removed",
+      "result": "PASS"
+    }
+  ]
+}

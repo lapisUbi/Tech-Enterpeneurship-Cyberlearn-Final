@@ -23,7 +23,10 @@ def valid(r):
     if not isinstance(fb['comment'],str) or len(fb['comment'])>400 or not all(fb[k] is None or type(fb[k])==int and 1<=fb[k]<=5 for k in ('use','rate')):raise ValueError()
     if fb.get('confidence') is not None and (type(fb['confidence']) is not int or not 1<=fb['confidence']<=5):raise ValueError()
     if fb.get('frequency','') not in ('','weekly','twice','monthly','onboard','unsure'):raise ValueError()
-    return dict({k:r[k] for k in ('schema','id','code','role','lang','parent','start','end')},answers=out,fb={k:fb.get(k) for k in ('use','rate','comment','confidence','frequency')},summary=summary)
+    if 'build' in r and (not isinstance(r['build'],str) or not re.fullmatch(r'[0-9]+\.[0-9]+\.[0-9]+',r['build'])):raise ValueError()
+    result=dict({k:r[k] for k in ('schema','id','code','role','lang','parent','start','end')},answers=out,fb={k:fb.get(k) for k in ('use','rate','comment','confidence','frequency')},summary=summary)
+    if 'build' in r:result['build']=r['build']
+    return result
 BANK={q['id']:q for q in json.loads((ROOT/'CyberLearn.html').read_text('utf-8').split('const BANK=',1)[1].split(';const UI=',1)[0])}
 def readable(r):
     e=lambda v:html.escape(str(v),quote=True)

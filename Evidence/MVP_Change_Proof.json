@@ -1,0 +1,14 @@
+{
+  "old_html_sha256": "8768fa532de2abaea5f6c527d47dcbb0dc107f0f79297654c91eea334948f1da",
+  "new_html_sha256": "e0f0b284e659503cbe7612c070ae11eca377d66ed7a2c9789da28f9d672a5f28",
+  "bank_count": 60,
+  "all_bank_items_and_keys_unchanged": true,
+  "receiver_rules_match_html": true,
+  "implemented_functions": {
+    "scoreGuide": 13,
+    "progressSummary": 12,
+    "handoffGuide": 14
+  },
+  "version": "2.2.0",
+  "no_human_retest": true
+}

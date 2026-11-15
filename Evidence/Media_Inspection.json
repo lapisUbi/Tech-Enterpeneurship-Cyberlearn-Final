@@ -1,0 +1,61 @@
+{
+  "checked_utc": "2026-11-15",
+  "advertisement": {
+    "file": "CS-2421_CyberLearn_Advertisement_v12.mp4",
+    "sha256": "4793f4251cb198ac11f0b55d5eed9869bd5d2973a7bc481dc796da3b31b7c4a3",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "codec_name": "aac",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "duration": "46.000000"
+      }
+    },
+    "full_decode": "PASS",
+    "audio_metrics": {
+      "integrated_LUFS": -18.0,
+      "true_peak_dB": -4.8,
+      "LRA_LU": 4.3,
+      "clipping_detected": false
+    }
+  },
+  "backup": {
+    "file": "CS-2421_CyberLearn_MVP-Demo.mp4",
+    "sha256": "3379dd8972937d93ae2c47871cc818ce6268601d53f2fc4a65c4b4e810623ac8",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 840,
+          "r_frame_rate": "16/1"
+        }
+      ],
+      "format": {
+        "duration": "32.250000"
+      }
+    },
+    "full_decode": "PASS"
+  },
+  "limits": [
+    "Audio not auditioned by ear",
+    "Projector-distance readability not verified",
+    "Original media asset/stem provenance not exhaustively verified",
+    "Videos record earlier interface, not 2.2.0 guidance"
+  ]
+}

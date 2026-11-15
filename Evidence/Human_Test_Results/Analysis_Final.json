@@ -1,0 +1,241 @@
+{
+  "method": "Independent recalculation from answer-level original files and unchanged item keys, 15 November 2026. No exclusion.",
+  "sessions": [
+    {
+      "file": "CyberLearn_CL-0A348_b0cb2b (1).json",
+      "sha256": "4219fcabb3f68c8b6613b409b3b0487066e638e1a087f8961479136aa1d6095b",
+      "id": "8831932be9c724d588b0cb2b",
+      "code": "CL-0A348",
+      "role": "teaching",
+      "lang": "ru",
+      "start": 1794553245864,
+      "end": 1794553975628,
+      "duration_seconds": 729.764,
+      "start_utc": "2026-11-13T07:00:45.864000+00:00",
+      "end_utc": "2026-11-13T07:12:55.628000+00:00",
+      "followup_due_utc": "2026-11-20T07:12:55.628000+00:00",
+      "ratings": {
+        "use": 3,
+        "rate": 4,
+        "confidence": 2,
+        "frequency": "twice",
+        "comment": ""
+      },
+      "stages": {
+        "pre": {
+          "actions": 3,
+          "classification": 2,
+          "threats_flagged": 0,
+          "false_alarms": 0,
+          "n": 4
+        },
+        "prac": {
+          "actions": 4,
+          "classification": 3,
+          "threats_flagged": 1,
+          "false_alarms": 0,
+          "n": 4
+        },
+        "post": {
+          "actions": 4,
+          "classification": 4,
+          "threats_flagged": 2,
+          "false_alarms": 0,
+          "n": 4
+        }
+      }
+    },
+    {
+      "file": "CyberLearn_CL-2A9D1_ef296c.json",
+      "sha256": "7128f7175a226b26967f8ba140c989c9b2bc9e83984b3dc0f46cc963ed2d8826",
+      "id": "e636a7a79338d1779eef296c",
+      "code": "CL-2A9D1",
+      "role": "finance",
+      "lang": "en",
+      "start": 1794646121667,
+      "end": 1794646322750,
+      "duration_seconds": 201.083,
+      "start_utc": "2026-11-14T08:48:41.667000+00:00",
+      "end_utc": "2026-11-14T08:52:02.750000+00:00",
+      "followup_due_utc": "2026-11-21T08:52:02.750000+00:00",
+      "ratings": {
+        "use": 3,
+        "rate": 2,
+        "confidence": 3,
+        "frequency": "onboard",
+        "comment": ""
+      },
+      "stages": {
+        "pre": {
+          "actions": 1,
+          "classification": 3,
+          "threats_flagged": 2,
+          "false_alarms": 1,
+          "n": 4
+        },
+        "prac": {
+          "actions": 0,
+          "classification": 1,
+          "threats_flagged": 0,
+          "false_alarms": 1,
+          "n": 4
+        },
+        "post": {
+          "actions": 0,
+          "classification": 2,
+          "threats_flagged": 1,
+          "false_alarms": 1,
+          "n": 4
+        }
+      }
+    },
+    {
+      "file": "CyberLearn_CL-2B9D1_895f5b.json",
+      "sha256": "420ec4ef38691cd70fbe1b351bc4fedc5519d663b172f2e4b1129a9ee476be6e",
+      "id": "e9586f6ed91118e32b895f5b",
+      "code": "CL-2B9D1",
+      "role": "admissions",
+      "lang": "en",
+      "start": 1794646554056,
+      "end": 1794646607936,
+      "duration_seconds": 53.88,
+      "start_utc": "2026-11-14T08:55:54.056000+00:00",
+      "end_utc": "2026-11-14T08:56:47.936000+00:00",
+      "followup_due_utc": "2026-11-21T08:56:47.936000+00:00",
+      "ratings": {
+        "use": 3,
+        "rate": 2,
+        "confidence": 3,
+        "frequency": "monthly",
+        "comment": ""
+      },
+      "stages": {
+        "pre": {
+          "actions": 0,
+          "classification": 4,
+          "threats_flagged": 2,
+          "false_alarms": 0,
+          "n": 4
+        },
+        "prac": {
+          "actions": 1,
+          "classification": 1,
+          "threats_flagged": 0,
+          "false_alarms": 1,
+          "n": 4
+        },
+        "post": {
+          "actions": 0,
+          "classification": 1,
+          "threats_flagged": 0,
+          "false_alarms": 1,
+          "n": 4
+        }
+      }
+    },
+    {
+      "file": "CyberLearn_CL-81DF3_be7764.json",
+      "sha256": "d05333b77d1d546848f42979d526de05444f456f121cc57d6c5143b49cd2ffb9",
+      "id": "7bf5f826c6f5ea08ebbe7764",
+      "code": "CL-81DF3",
+      "role": "finance",
+      "lang": "ru",
+      "start": 1794556854201,
+      "end": 1794557435001,
+      "duration_seconds": 580.8,
+      "start_utc": "2026-11-13T08:00:54.201000+00:00",
+      "end_utc": "2026-11-13T08:10:35.001000+00:00",
+      "followup_due_utc": "2026-11-20T08:10:35.001000+00:00",
+      "ratings": {
+        "use": 4,
+        "rate": 5,
+        "confidence": 4,
+        "frequency": "twice",
+        "comment": ""
+      },
+      "stages": {
+        "pre": {
+          "actions": 4,
+          "classification": 4,
+          "threats_flagged": 2,
+          "false_alarms": 0,
+          "n": 4
+        },
+        "prac": {
+          "actions": 4,
+          "classification": 4,
+          "threats_flagged": 2,
+          "false_alarms": 0,
+          "n": 4
+        },
+        "post": {
+          "actions": 0,
+          "classification": 4,
+          "threats_flagged": 2,
+          "false_alarms": 0,
+          "n": 4
+        }
+      }
+    },
+    {
+      "file": "CyberLearn_CL-D9118_4c9a40 (1).json",
+      "sha256": "f2ccd303bc1515279209096a85416fb78f237cc792f915233d4877e8b59c90ec",
+      "id": "761639e45e1c5af0464c9a40",
+      "code": "CL-D9118",
+      "role": "teaching",
+      "lang": "ru",
+      "start": 1794553878500,
+      "end": 1794554136128,
+      "duration_seconds": 257.628,
+      "start_utc": "2026-11-13T07:11:18.500000+00:00",
+      "end_utc": "2026-11-13T07:15:36.128000+00:00",
+      "followup_due_utc": "2026-11-20T07:15:36.128000+00:00",
+      "ratings": {
+        "use": 5,
+        "rate": 4,
+        "confidence": 4,
+        "frequency": "weekly",
+        "comment": ""
+      },
+      "stages": {
+        "pre": {
+          "actions": 1,
+          "classification": 2,
+          "threats_flagged": 0,
+          "false_alarms": 0,
+          "n": 4
+        },
+        "prac": {
+          "actions": 3,
+          "classification": 2,
+          "threats_flagged": 0,
+          "false_alarms": 0,
+          "n": 4
+        },
+        "post": {
+          "actions": 2,
+          "classification": 2,
+          "threats_flagged": 0,
+          "false_alarms": 0,
+          "n": 4
+        }
+      }
+    }
+  ],
+  "pooled": {
+    "pre": {
+      "actions": 9,
+      "classification": 15,
+      "threats_flagged": 6,
+      "false_alarms": 1,
+      "n": 20
+    },
+    "post": {
+      "actions": 6,
+      "classification": 13,
+      "threats_flagged": 5,
+      "false_alarms": 2,
+      "n": 20
+    }
+  }
+}

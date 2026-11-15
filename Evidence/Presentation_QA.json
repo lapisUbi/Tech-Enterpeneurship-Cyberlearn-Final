@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-15",
+  "pptx_sha256": "121aa4778f92b752c29c42097177ee68f5c5a575accaf24803c49a78a1e9db52",
+  "pdf_sha256": "33b8c48eb714d0f9e87c957cdadc29465f0d303f03eaf1dfee4a0761fefc4b34",
+  "slides": 14,
+  "pdf_method": "Image-based PDF assembled from exact 1920x1080 PNG renders of the re-imported final PPTX. Native Artifact Tool PDF export was unavailable because a standard-font module was missing. PPTX text, table and chart remain editable.",
+  "visual_review": "All 14 slide renders inspected individually. Slide 2 overlap fixed and re-rendered; the other 13 renders were byte-identical after the correction.",
+  "native_table_matches_original_session_calculations": [
+    "CL-0A348",
+    "CL-2A9D1",
+    "CL-2B9D1",
+    "CL-81DF3",
+    "CL-D9118"
+  ],
+  "native_chart_values_million_kzt": [
+    17.35,
+    -5.96
+  ],
+  "embedded_chart_workbook_unchanged": true,
+  "package_findings": 0,
+  "layout_findings": 0,
+  "font_families": [
+    "Liberation Sans"
+  ],
+  "final_pptx_reimport_passed": true,
+  "page_checks": [
+    {
+      "slide": 1,
+      "render_sha256": "ac6c0c2a7cdfe5487b77676f571fee922760a006121f9389150a14d852423a42",
+      "pdf_embedded_pixels_match": true
+    },
+    {
+      "slide": 2,
+      "render_sha256": "fd7e61c7186b98a2c82b4b5a1a35b4b6834f3ad682d6130904143db186877c22",
+      "pdf_embedded_pixels_match": true
+    },
+    {
+      "slide": 3,
+      "render_sha256": "1e6f06b06c71a8f90ff00b229604e2c2c86d305b64d36f40d38c932787ade1c1",
+      "pdf_embedded_pixels_match": true
+    },
+    {
+      "slide": 4,
+      "render_sha256": "a589d707f90cc4ed15068f62fab3d5c53329a0a3bc4619c4502a5ad2e2be43db",
+      "pdf_embedded_pixels_match": true
+    },
+    {
+      "slide": 5,
+      "render_sha256": "6ff332d07afdc15d4c08a874904dea8967eac0273d55b730b5f16233ef757eb0",
+      "pdf_embedded_pixels_match": true
+    },
+    {
+      "slide": 6,
+      "render_sha256": "78c89697b9c792227c6b11590945e3d8b379ff13a682af95e1ec1c5db3cf270f",
+      "pdf_embedded_pixels_match": true
+    },
+    {
+      "slide": 7,
+      "render_sha256": "ef9956a2f1da34ae88bab2f0f12f66896b092f57208d6422d6c5910c26c778a7",
+      "pdf_embedded_pixels_match": true
+    },
+    {
+      "slide": 8,
+      "render_sha256": "b394f4d4bcdc35740a3b12d926ac8f318f2b60694c5bad3ca27fc0d6c9a1172c",
+      "pdf_embedded_pixels_match": true
+    },
+    {
+      "slide": 9,
+      "render_sha256": "3494065f7286bd51b021d48528640c6a091369f8b9dc5b45f6c750456fde2303",
+      "pdf_embedded_pixels_match": true
+    },
+    {
+      "slide": 10,
+      "render_sha256": "9c6a66e7edc91a5c615d4fb4fb02cc5bf6ae4df781c14d1bc19933beb9e938de",
+      "pdf_embedded_pixels_match": true
+    },
+    {
+      "slide": 11,
+      "render_sha256": "018a4b88750f45705f9ebedd28917d2b41f0b4257796d1dfb1392b565c630fa1",
+      "pdf_embedded_pixels_match": true
+    },
+    {
+      "slide": 12,
+      "render_sha256": "0f36bed95bd9c3d8e2779270653ca3124a5c3e98e109ad099dae262fdf2ec843",
+      "pdf_embedded_pixels_match": true
+    },
+    {
+      "slide": 13,
+      "render_sha256": "0cc76e3278d0c39266bd0bdb8ad43a85f2471fa9320a04006daec6956f4a9969",
+      "pdf_embedded_pixels_match": true
+    },
+    {
+      "slide": 14,
+      "render_sha256": "3ec0a905a08a14cbdace20fc6903b31f64dbbe52776076036682a28cb79eb51d",
+      "pdf_embedded_pixels_match": true
+    }
+  ],
+  "limitations": [
+    "Native PowerPoint was not opened.",
+    "The PDF is image based; use PPTX for editable text.",
+    "Actual spoken timing, live browser demonstration and room playback require team rehearsal."
+  ]
+}
